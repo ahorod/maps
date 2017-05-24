@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <link rel="stylesheet" href="/css/styles.css" media="screen" title="no title" charset="utf-8">
+    <title>Bike</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Bike Index </h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group has-primary">
+            <label class="form-control-label" for="serial">Serial No.: </label>
+            <input type="text" class="form-control form-control-primary" id="serial">
+            <label class="form-control-label" for="manufacturer">Manufacturers: </label>
+            <input type="text" class="form-control form-control-primary" id="manufacturer">
+            <label class="form-control-label" for="location">Location(city, state, zipcode): </label>
+            <input type="text" class="form-control form-control-primary" id="location">
+            <label class="form-control-label" for="distance">Within Miles</label>
+            <input type="text" class="form-control form-control-primary" id="distance">
+            <button class="mt-3 bike-button"><i class="fa fa-search fa-3x" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="result">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
