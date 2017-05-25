@@ -1,0 +1,16 @@
+$primary-color: #4CB5AE;
+
+.cover {
+  background-color: $primary-color;
+  height: 200px;
+  margin-bottom: 3rem;
+  .cover-caption {
+    color: white;
+    padding-top: 4rem;
+    text-align: center;
+  }
+    h1 {
+      font-family:cursive;
+      font-size: 5rem;
+    }
+}
